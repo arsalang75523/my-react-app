@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import IncomeComponent from './components/IncomeComponent'; 
+import { init, useQuery } from '@airstack/airstack-react';
 
 function App() {
   return (
